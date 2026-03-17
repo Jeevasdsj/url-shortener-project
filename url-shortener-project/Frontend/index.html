@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Easy URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Easy URL Shortener</h1>
+    <p>Simplify your URL</p>
+
+    <input type="text" id="urlInput" placeholder="Enter your original URL">
+    <button onclick="shortenURL()">Shorten URL</button>
+</div>
+
+<!-- TABLE -->
+<div class="table-container">
+    <h2>Recent URLs</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Original URL</th>
+                <th>Short URL</th>
+                <th>Created On</th>
+                <th>Clicks</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="urlTable"></tbody>
+    </table>
+</div>
+
+<!-- CHART -->
+<div class="chart-container">
+    <h2>Statistics</h2>
+    <canvas id="chart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
