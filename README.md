@@ -1,7 +1,7 @@
 # url-shortener-project
 # URL Shortener Project
 
- Overview
+## Overview
 
 This project is a full-stack URL Shortener application developed using Java for the backend and HTML, CSS, and JavaScript for the frontend.
 
@@ -34,13 +34,13 @@ The application allows users to convert long URLs into short, easy-to-share link
 url-shortener-project/
 
 backend/
-└── src/
-    └── UrlShortenerServer.java
+── src/
+    ── UrlShortenerServer.java
 
 frontend/
-├── index.html
-├── style.css
-└── script.js
+── index.html
+── style.css
+── script.js
 
 
 ##  Setup and Installation
